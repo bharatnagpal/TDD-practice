@@ -22,7 +22,7 @@ describe('tail', function(){
   it('should return null when provided array is empty[]', function(){
       let arr = [];
 assert.isNull(functions.tail(arr));
-  });
+});
 
   it('should return 3 when provided array is [1, 2, 3]', function(){
     let arr = [1, 2, 3];
